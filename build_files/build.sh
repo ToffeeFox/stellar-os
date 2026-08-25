@@ -16,6 +16,9 @@ cp -avf "/ctx/system_files"/. /
 dnf5 install -y tmux
 
 # Install Cloudflare Warp
+## Clean the target directory first
+rm -rf /opt/cloudflare-warp/
+## NOW install CF Warp
 dnf5 install -y cloudflare-warp
 
 # Use a COPR Example:
