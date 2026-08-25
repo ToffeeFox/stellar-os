@@ -4,13 +4,11 @@ on:
   pull_request:
     branches:
       - main
-      - feat/cloudflare-warp
   schedule:
     - cron: '05 10 * * *'  # 10:05am UTC everyday
   push:
     branches:
       - main
-      - feat/cloudflare-warp
     paths-ignore:
       - '**/README.md'
   workflow_dispatch:
