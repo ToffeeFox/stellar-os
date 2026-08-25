@@ -15,6 +15,12 @@ cp -avf "/ctx/system_files"/. /
 # Install Cloudflare Warp
 dnf5 install -y cloudflare-warp
 
+# Install Cardwire (and its GUI)
+dnf5 install -y cardwire cardwire-gui
+
+# Install Dev Extras
+dnf5 install -y sysprof
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
