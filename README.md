@@ -43,7 +43,7 @@ This will show you all the info you need to know about your current image. The i
 
 From your bootc system, run the following command substituting in your Github username and image name where noted.
 ```bash
-sudo bootc switch ghcr.io/ToffeeFox/stellar-os:latest
+sudo bootc switch ghcr.io/toffeefox/stellar-os:latest
 ```
 This should queue your image for the next reboot, which you can do immediately after the command finishes. You have officially set up your custom image! See the following section for an explanation of the important parts of the template for customization.
 
