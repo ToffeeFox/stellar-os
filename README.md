@@ -1,6 +1,17 @@
 # Stellar OS
 
-This repository is meant to be a template for building your own custom [bootc](https://github.com/bootc-dev/bootc) image. This template is the recommended way to make customizations to any image published by the Universal Blue Project.
+This is essentially Bazzite with some modifications to work better for me.
+This was created via the uBlue template creator.
+
+# Features
+
+## Cloudflare Warp
+
+Cloudflare Warp Agent is pre-installed for easy Zero Trust enrollment.
+
+## Bitwarden System Authentication
+
+The policy file that allows Bitwarden vaults to be unlocked via system authentication (rather than the master password) is pre-installed.
 
 # Community
 
