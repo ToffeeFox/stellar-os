@@ -13,13 +13,16 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # Install Cloudflare Warp
-dnf5 install -y cloudflare-warp
+dnf5 -y install cloudflare-warp
 
 # Install Cardwire (and its GUI)
-dnf5 install -y cardwire cardwire-gui
+dnf5 -y install \
+    cardwire \
+    cardwire-gui
 
 # Install Dev Extras
-dnf5 install -y sysprof
+dnf5 -y install sysprof
+dnf5 -y install codium
 
 # Use a COPR Example:
 #
